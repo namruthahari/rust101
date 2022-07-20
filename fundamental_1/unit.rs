@@ -13,6 +13,7 @@ fn implicitly_ret_unit() {
 }
 
 // // Don't use this one
-// fn explicitly_ret_unit() -> () {
+// fn explicitly_ret_unit() -> () 
+//{
 //     println!("I will return a ()");
 // }

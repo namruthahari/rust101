@@ -1,10 +1,11 @@
 // Fix all errors without adding newline
 
 fn main() {
-    let mut s =  String::from("hello");
+    let  mut s =  String::from("hello");
     s.push(',');
     s.push_str(" world");
-    assert_eq!(s, "!".to_string());
+    s.push('!');
+
     println!("{}", s);
 }
 
